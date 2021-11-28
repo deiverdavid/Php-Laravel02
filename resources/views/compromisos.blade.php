@@ -154,6 +154,7 @@ form input[type="text"] ,input[type="file"] {
 
 </head>
 <body>
+	@include('banner')
     <header id="main-header">
 		
 		<a id="logo-header" href="#">

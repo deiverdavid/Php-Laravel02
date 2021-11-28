@@ -15,16 +15,25 @@
         
         .TextCabecera{
             text-align:center;
-            text-transform:uppercase;
+            /*text-transform:uppercase;*/
             font-size:x-large;
             font-family:Arial, Helvetica, sans-serif;
             margin-bottom:100px;
-            color: #0fff00;
+            color: #ffffff;
+            background-color: #5A3527;
+            /*background:radial-gradient(200px top, ellipse, white, #5A3527, black);*/
+            /*background:linear-gradient(top, #5A3527, black);*/
         }
     </style>
 </head>
 <body>
-    <img src="./images/logo.png" class="ImagenCabecera">
-    <p class="TextCabecera"> Corporacion Cleba </p>
+    <img src="./images/logo_Corporacion_Cleba.png" class="ImagenCabecera">
+    <p class="TextCabecera"> Corporacion 
+        <i><span style="color:#079171">C</span>
+        <span style="color:#039B4E">l</span>
+        <span style="color:#FFFFFF">e</span>
+        <span style="color:#039B4E">b</span>
+        <span style="color:#FFFFFF">a</span></i>
+    </p>
 </body>
 </html>

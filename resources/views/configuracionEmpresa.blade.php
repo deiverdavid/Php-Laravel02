@@ -157,6 +157,7 @@ form select{
 
 </head>
 <body>
+  @include('banner')
     <header id="main-header">
 		
 		<a id="logo-header" href="#">

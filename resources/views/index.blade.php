@@ -178,11 +178,12 @@ form input[type="text"] ,input[type="file"] {
 
 </head>
 <body>
+    @include('banner')
     <header id="main-header">
 		
 		<a id="logo-header" href="#">
-			<span class="site-name">Transporte</span>
-			<span class="site-desc">Comodidad / rapidez / Seguridad</span>
+			<span class="site-name">Corporación</span>
+			<span class="site-desc">Educamos para el desarrollo humano integral y la construccion de una sociedad inclutente, justa y pacifica</span>
 		</a> <!-- / #logo-header -->
 
 		<nav>
@@ -204,13 +205,13 @@ form input[type="text"] ,input[type="file"] {
         <div class="dropdown">
             <span>Módulo de documentación</span>
             <div class="dropdown-content">
-            <p><a href="">Encargado de SG-SST</a></p>
-            <p><a href="">Configuracion de empresa</a></p>
-            <p><a href="">compromisos y responsabilidades del gerente y empleados</a></p>
-            <p><a href="">Aliados</a></p>
-            <p><a href="">Política del SG-SST</a></p>
-            <p><a href="">Riesgos psicosociales</a></p>
-            <p><a href="">Plan de emergencia</a></p>
+            <p><a href="./documents/FOR01 - ACTA DE NOMBRAMIENTO RESPONSABLE SST.pdf">Encargado de SG-SST</a></p>
+            <p><a href="https://www.cleba.org.co/index.html">Configuracion de empresa</a></p>
+            <p><a href="./documents/FOR02 - COMPROMISO GERENCIAL.pdf">compromisos y responsabilidades del gerente y empleados</a></p>
+            <p><a href="./documents/FOR04 - ALIADOS ESTRATÉGICOS.xlsx">Aliados</a></p>
+            <p><a href="./documents/FOR05 - EJEMPLO POLITICA.docx">Política del SG-SST</a></p>
+            <p><a href="falta_este">Riesgos psicosociales</a></p>
+            <p><a href="./documents/FOR10 - FD098 PLAN DE TRABAJO ANUAL.xlsx">Plan de emergencia</a></p>
             </div>
         </div>
 		<br>

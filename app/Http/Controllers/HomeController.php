@@ -23,10 +23,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('riesgosPsicosociales');
+        return view('index');
     }
-    public function show()
+    /*public function show()
     {
+        return view('banner');
+    }*/
+
+    public function encargado(){
         return view('banner');
     }
 }
