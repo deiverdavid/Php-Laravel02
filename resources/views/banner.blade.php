@@ -25,6 +25,6 @@
 </head>
 <body>
     <img src="./images/logo.png" class="ImagenCabecera">
-    <p class="TextCabecera"> Drogas R+ </p>
+    <p class="TextCabecera"> Corporacion Cleba </p>
 </body>
 </html>
